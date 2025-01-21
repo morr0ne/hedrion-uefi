@@ -10,7 +10,7 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    let msg = b"Hedrion love you <3";
+    let msg = b"Hedrion loves you <3";
 
     unsafe {
         // Write text to VGA buffer
